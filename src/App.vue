@@ -3,13 +3,18 @@
     <img alt="Vue logo" src="./assets/peiko-logo-mini.png">
     <h1>Test</h1>
     <hr>
+    <InformationBar />
   </div>
 </template>
 
 <script>
+import InformationBar from "@/components/InformationBar"
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    InformationBar
+  }
 }
 </script>
 
